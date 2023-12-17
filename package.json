@@ -1,0 +1,22 @@
+{
+  "name": "online_shop_cypress",
+  "version": "1.0.0",
+  "description": "Test automation with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "click": "cypress run --spec cypress/e2e/click.cy.js",
+    "customCommands": "cypress run --spec cypress/e2e/customCommands.cy.js",
+    "sorting": "cypress run --spec cypress/e2e/sorting.cy.js",
+    "typing": "cypress run --spec cypress/e2e/typing.cy.js"
+  },
+  "keywords": [
+    "automation",
+    "cypress",
+    "tests"
+  ],
+  "author": "Anna",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  }
+}
